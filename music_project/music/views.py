@@ -1,10 +1,5 @@
 #from django.shortcuts import render
-from _typeshed import Self
-import re
-
 from django.http.response import Http404
-
-from music_project.music_project.settings import DEFAULT_AUTO_FIELD
 from .models import Song
 from .serializers import SongSerializer
 from rest_framework.views import APIView
